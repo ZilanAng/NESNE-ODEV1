@@ -1,0 +1,14 @@
+﻿<Window x:Class="Elif_Davutoglu.sepet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Elif_Davutoglu"
+        mc:Ignorable="d"
+        Title="Sepetim" Height="300" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Label x:Name="label" Content="SEPETİNİZDE ÜRÜN YOK" HorizontalAlignment="Left" Margin="40,79,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="button" Content="&lt; ALIŞVERİŞE BAŞLA" HorizontalAlignment="Left" Height="37" Margin="73,139,0,0" VerticalAlignment="Top" Width="145" Background="#FF0153A6" BorderBrush="White" Foreground="White" Click="button_Click"/>
+
+    </Grid>
+</Window>
